@@ -1,5 +1,5 @@
 import time
-
+## ________ Provided Solution __________
 start_time = time.time()
 
 f = open('names_1.txt', 'r')
@@ -22,7 +22,7 @@ print ("\n\nProvided Solution")
 print (f"{len(duplicates)} duplicates:\n\n{', '.join(duplicates)}\n\n")
 print (f"runtime: {end_time - start_time} seconds")
 
-## My solution section
+## ________ My solution section ____________
 start_time = time.time()
 
 f = open('names_1.txt', 'r')
